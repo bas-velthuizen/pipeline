@@ -25,7 +25,7 @@ dev:
 build:
     steps:
         - setup-go-workspace:
-            package-dir: github/bas-velthuizen/hello
+            package-dir: github/bas-velthuizen/pipeline
 
         - script:
             name: env
